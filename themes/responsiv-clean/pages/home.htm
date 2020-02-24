@@ -1,0 +1,46 @@
+title = "Welcome"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
+
+[resources]
+js[] = "controls/auto-pager.js"
+js[] = "../vendor/isotope/imagesloaded.js"
+js[] = "../vendor/isotope/isotope.js"
+js[] = "pages/home.js"
+less[] = "pages/home.less"
+
+[staticPage]
+useContent = 1
+default = 0
+==
+<?php
+public function onPagePosts()
+{
+    $this->blogPosts->setProperty('pageNumber', post('page'));
+    $this->pageCycle();
+}
+?>
+==
+<div
+    id="homePosts"
+    class="post-list home-posts">
+    {% partial 'home/posts' %}
+</div>
+<div
+    class="text-center"
+    data-control="auto-pager"
+    data-request="onPagePosts"
+    data-request-update="'home/posts': '@#homePosts'"
+    data-current-page="1"
+    data-last-page="{{ posts.lastPage }}">
+    <a class="text-muted oc-loading">Fetching posts..</a>
+</div>

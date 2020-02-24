@@ -1,0 +1,12 @@
+1582564862a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:151:"==
+<div class="footer-inner">
+    <p class="muted credit">
+        &copy; {{ "now"|date("Y") }}
+        &mdash; Michael Alexander.
+    </p>
+</div>";s:5:"mtime";i:1582560971;s:6:"markup";s:148:"<div class="footer-inner">
+    <p class="muted credit">
+        &copy; {{ "now"|date("Y") }}
+        &mdash; Michael Alexander.
+    </p>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

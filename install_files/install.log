@@ -1,0 +1,987 @@
+.=====================================================================.
+                                                                       
+  .d8888b.   .o8888b.  db  .d8888b.  d8888b. d88888b d8888b.  .d888b.  
+ .8P    Y8. d8P    Y8  88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8. 
+ 88      88 8P     .ooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88 
+ 88      88 8b     `~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88 
+ `8b    d8' Y8b    d8  88 `8b    d8' 88   8D 88.     88 `88. `8b | d8' 
+  `Y8888P'   `Y8888P'  YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P'  
+                                                                       
+`========================== INSTALLATION LOG ========================='
+
+[2020/02/24 08:31:50] Host: Linux twistedbytes-site.alex.test 3.10.0-1062.1.1.el7.x86_64 #1 SMP Fri Sep 13 22:55:44 UTC 2019 x86_64
+[2020/02/24 08:31:50] PHP version: 7.0.33
+[2020/02/24 08:31:50] Server software: Apache
+[2020/02/24 08:31:50] Operating system: Linux
+[2020/02/24 08:31:50] Memory limit: 256M
+[2020/02/24 08:31:50] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:51] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:51] System check: phpVersion
+[2020/02/24 08:31:51] Requirement phpVersion +OK
+[2020/02/24 08:31:51] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:52] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:52] System check: curlLibrary
+[2020/02/24 08:31:52] Requirement curlLibrary +OK
+[2020/02/24 08:31:52] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:52] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:52] System check: liveConnection
+[2020/02/24 08:31:53] Server request: ping
+[2020/02/24 08:31:53] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 688
+    [request_size] => 179
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.226487
+    [namelookup_time] => 0.029599
+    [connect_time] => 0.112811
+    [pretransfer_time] => 0.112953
+    [size_upload] => 40
+    [size_download] => 12
+    [speed_download] => 52
+    [speed_upload] => 176
+    [download_content_length] => -1
+    [upload_content_length] => 40
+    [starttransfer_time] => 0.226423
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 52.41.246.127
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 10.0.2.15
+    [local_port] => 39114
+)
+
+[2020/02/24 08:31:53] Requirement liveConnection +OK
+[2020/02/24 08:31:53] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:53] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:53] System check: writePermission
+[2020/02/24 08:31:53] Requirement writePermission +OK
+[2020/02/24 08:31:53] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:54] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:54] System check: pdoLibrary
+[2020/02/24 08:31:54] Requirement pdoLibrary +OK
+[2020/02/24 08:31:54] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:54] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:54] System check: mbstringLibrary
+[2020/02/24 08:31:54] Requirement mbstringLibrary +OK
+[2020/02/24 08:31:54] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:55] Postback payload: Array
+(
+    [code] => fileinfoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:55] System check: fileinfoLibrary
+[2020/02/24 08:31:55] Requirement fileinfoLibrary +OK
+[2020/02/24 08:31:55] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:55] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:55] System check: sslLibrary
+[2020/02/24 08:31:55] Requirement sslLibrary +OK
+[2020/02/24 08:31:55] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:56] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:56] System check: zipLibrary
+[2020/02/24 08:31:56] Requirement zipLibrary +OK
+[2020/02/24 08:31:56] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:31:56] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2020/02/24 08:31:56] System check: gdLibrary
+[2020/02/24 08:31:56] Requirement gdLibrary +OK
+[2020/02/24 08:31:56] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:45:51] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => defaultsite
+    [db_pass] => *******
+    [admin_first_name] => Michael
+    [admin_last_name] => Alexander
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /back
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:45:51] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => defaultsite
+    [db_pass] => *******
+    [admin_first_name] => Michael
+    [admin_last_name] => Alexander
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /back
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:45:51] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => defaultsite
+    [db_pass] => *******
+    [admin_first_name] => Michael
+    [admin_last_name] => Alexander
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /back
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:46:18] Postback payload: Array
+(
+    [handler] => onGetPopularThemes
+)
+
+[2020/02/24 08:46:19] Server request: theme/popular
+[2020/02/24 08:46:19] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/theme/popular
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 688
+    [request_size] => 188
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.345948
+    [namelookup_time] => 0.030247
+    [connect_time] => 0.120645
+    [pretransfer_time] => 0.120758
+    [size_upload] => 40
+    [size_download] => 4026
+    [speed_download] => 11637
+    [speed_upload] => 115
+    [download_content_length] => -1
+    [upload_content_length] => 40
+    [starttransfer_time] => 0.345806
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 52.41.246.127
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 10.0.2.15
+    [local_port] => 39116
+)
+
+[2020/02/24 08:46:19] Execute handler (onGetPopularThemes): Array
+(
+    [0] => Array
+        (
+            [name] => Clean Blog
+            [description] => Clean blogger theme.
+            [code] => Responsiv.Clean
+            [updated_at] => 2020-02-24 06:31:52
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 07e5b7066168a94349ac92018770c2e8
+            [demo_url] => http://daftspunk.com/
+            [product_url] => http://gateway.octobercms.com/theme/responsiv-clean
+        )
+
+    [1] => Array
+        (
+            [name] => New Age
+            [description] => Landing page for mobile apps
+            [code] => VojtaSvoboda.newage
+            [updated_at] => 2020-02-24 06:39:26
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/580/7eb/dc9/thumb_5770_210_140_0_0_crop.png
+            [author] => Vojta Svoboda
+            [hash] => 49e176898b238fb98aa05dd5c6e27464
+            [demo_url] => https://blackrockdigital.github.io/startbootstrap-new-age/
+            [product_url] => http://gateway.octobercms.com/theme/vojtasvoboda-newage
+        )
+
+    [2] => Array
+        (
+            [name] => Stellar
+            [description] => a clean, responsive one page and blog theme
+            [code] => Zwiebl.zwiebl_stellar
+            [updated_at] => 2020-02-23 19:18:37
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/57e/bb4/fe9/thumb_5641_210_140_0_0_crop.png
+            [author] => Alpen.Space
+            [hash] => 19345446d87ad08e6937503019a43fd9
+            [demo_url] => https://theme-demo.alpen.space/stellar/
+            [product_url] => http://gateway.octobercms.com/theme/zwiebl-zwiebl-stellar
+        )
+
+    [3] => Array
+        (
+            [name] => Blank Bootstrap 4
+            [description] => A blank Bootstrap 4 template
+            [code] => Hambern.hambern-blank-bootstrap-4
+            [updated_at] => 2020-02-24 06:43:07
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/57b/9ba/c48/thumb_5365_210_140_0_0_crop.png
+            [author] => Mattias Hamberg
+            [hash] => 9a6762de633774de2cebf69a88f290d1
+            [demo_url] => 
+            [product_url] => http://gateway.octobercms.com/theme/hambern-hambern-blank-bootstrap-4
+        )
+
+    [4] => Array
+        (
+            [name] => Bonjour
+            [description] => A sample multi-lingual theme for translated content.
+            [code] => RainLab.Bonjour
+            [updated_at] => 2020-02-24 04:45:28
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/577/9df/850/thumb_4911_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => f1084f81e0e1c5c8d22317794292deb3
+            [demo_url] => 
+            [product_url] => http://gateway.octobercms.com/theme/rainlab-bonjour
+        )
+
+    [5] => Array
+        (
+            [name] => Viola
+            [description] => One Page Theme based on Bootstrap 4 with different color schemes, scss files included
+            [code] => JumpLink.Viola
+            [updated_at] => 2020-02-24 04:09:48
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/574/6af/435/thumb_4705_210_140_0_0_crop.png
+            [author] => JumpLink
+            [hash] => fe09a3915724fcc241e0e5914c8ea346
+            [demo_url] => http://healthyteeth.jumplink.eu/
+            [product_url] => http://gateway.octobercms.com/theme/jumplink-viola
+        )
+
+    [6] => Array
+        (
+            [name] => Relax
+            [description] => A fictional site called House of Chairs that demonstrates how to build a client-friendly website.
+            [code] => RainLab.Relax
+            [updated_at] => 2020-02-24 06:29:50
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/559/49e/2da/thumb_2585_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => a35c64b09ad6347b8a226291e5b8fd75
+            [demo_url] => 
+            [product_url] => http://gateway.octobercms.com/theme/rainlab-relax
+        )
+
+    [7] => Array
+        (
+            [name] => Vanilla
+            [description] => A plain starter template that implements account management, a blog and community forum.
+            [code] => RainLab.Vanilla
+            [updated_at] => 2020-02-24 05:43:21
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/552/da4/0f8/thumb_2106_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => 4b893d1c085a298e9b9b1d13635a675f
+            [demo_url] => 
+            [product_url] => http://gateway.octobercms.com/theme/rainlab-vanilla
+        )
+
+    [8] => Array
+        (
+            [name] => Flat UI
+            [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+            [code] => Responsiv.Flat
+            [updated_at] => 2020-02-24 06:32:10
+            [image] => //gateway.octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 3b3994c2c50d1b0f49a0725d764c12e8
+            [demo_url] => 
+            [product_url] => http://gateway.octobercms.com/theme/responsiv-flat
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:56:50] Postback payload: Array
+(
+    [name] => Responsiv.Clean
+    [handler] => onThemeDetails
+)
+
+[2020/02/24 08:56:50] Server request: theme/detail
+[2020/02/24 08:56:50] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/theme/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 705
+    [request_size] => 208
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.297389
+    [namelookup_time] => 0.062388
+    [connect_time] => 0.150133
+    [pretransfer_time] => 0.150205
+    [size_upload] => 61
+    [size_download] => 680
+    [speed_download] => 2286
+    [speed_upload] => 205
+    [download_content_length] => -1
+    [upload_content_length] => 61
+    [starttransfer_time] => 0.297345
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 54.214.90.182
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 10.0.2.15
+    [local_port] => 43610
+)
+
+[2020/02/24 08:56:50] Execute handler (onThemeDetails): Array
+(
+    [name] => Clean Blog
+    [description] => Clean blogger theme.
+    [code] => Responsiv.Clean
+    [updated_at] => 2020-02-24 07:51:45
+    [image] => //gateway.octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+    [author] => Responsiv Internet
+    [hash] => 07e5b7066168a94349ac92018770c2e8
+    [demo_url] => http://daftspunk.com/
+    [product_url] => http://gateway.octobercms.com/theme/responsiv-clean
+    [require] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Blog
+                    [description] => A robust blogging platform.
+                    [code] => RainLab.Blog
+                    [updated_at] => 2020-02-24 07:52:10
+                    [image] => http://placehold.it/64x64
+                    [author] => October
+                    [hash] => 8ab14a3679d1294f8db5933def5a6800
+                    [demo_url] => 
+                    [product_url] => 
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:56:50] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [plugins] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Blog
+                    [description] => A robust blogging platform.
+                    [code] => RainLab.Blog
+                    [updated_at] => 2020-02-24 07:52:10
+                    [image] => http://placehold.it/64x64
+                    [author] => October
+                    [hash] => 8ab14a3679d1294f8db5933def5a6800
+                    [demo_url] => 
+                    [product_url] => 
+                )
+
+        )
+
+    [themes] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Clean Blog
+                    [description] => Clean blogger theme.
+                    [code] => Responsiv.Clean
+                    [updated_at] => 2020-02-24 07:51:45
+                    [image] => //gateway.octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+                    [author] => Responsiv Internet
+                    [hash] => 07e5b7066168a94349ac92018770c2e8
+                    [demo_url] => http://daftspunk.com/
+                    [product_url] => http://gateway.octobercms.com/theme/responsiv-clean
+                    [require] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Blog
+                                    [description] => A robust blogging platform.
+                                    [code] => RainLab.Blog
+                                    [updated_at] => 2020-02-24 07:52:10
+                                    [image] => http://placehold.it/64x64
+                                    [author] => October
+                                    [hash] => 8ab14a3679d1294f8db5933def5a6800
+                                    [demo_url] => 
+                                    [product_url] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:56:50] Install step: getMetaData
+[2020/02/24 08:56:50] Server request: core/install
+[2020/02/24 08:56:50] Request information: Array
+(
+    [url] => http://gateway.octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 705
+    [request_size] => 245
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.36984
+    [namelookup_time] => 0.0613
+    [connect_time] => 0.145296
+    [pretransfer_time] => 0.145589
+    [size_upload] => 98
+    [size_download] => 233
+    [speed_download] => 630
+    [speed_upload] => 264
+    [download_content_length] => -1
+    [upload_content_length] => 98
+    [starttransfer_time] => 0.369796
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 52.41.246.127
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 10.0.2.15
+    [local_port] => 39120
+)
+
+[2020/02/24 08:56:50] Step getMetaData +OK
+[2020/02/24 08:56:50] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:56:51] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:56:51] Install step: downloadCore
+[2020/02/24 08:56:53] Saving to file (core): /data/site/docroot/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2020/02/24 08:56:53] Step downloadCore +OK
+[2020/02/24 08:56:53] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:56:54] Postback payload: Array
+(
+    [step] => downloadPlugin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => RainLab.Blog
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:56:54] Install step: downloadPlugin
+[2020/02/24 08:56:54] Saving to file (RainLab.Blog-plugin): /data/site/docroot/install_files/temp/33b538b0804bdcfce25684369ded882c.arc
+[2020/02/24 08:56:54] Step downloadPlugin +OK
+[2020/02/24 08:56:54] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:56:55] Postback payload: Array
+(
+    [step] => downloadTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:56:55] Install step: downloadTheme
+[2020/02/24 08:56:56] Saving to file (Responsiv.Clean-theme): /data/site/docroot/install_files/temp/50b424b156f0b335ba87925d2ea83f82.arc
+[2020/02/24 08:56:56] Step downloadTheme +OK
+[2020/02/24 08:56:56] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:56:56] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:56:56] Install step: extractCore
+[2020/02/24 08:56:56] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2020/02/24 08:57:48] Step extractCore +OK
+[2020/02/24 08:57:48] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:57:48] Postback payload: Array
+(
+    [step] => extractPlugin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => RainLab.Blog
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:57:48] Install step: extractPlugin
+[2020/02/24 08:57:48] Extracting file (RainLab.Blog-plugin): 33b538b0804bdcfce25684369ded882c.arc
+[2020/02/24 08:57:50] Step extractPlugin +OK
+[2020/02/24 08:57:50] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:57:50] Postback payload: Array
+(
+    [step] => extractTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:57:50] Install step: extractTheme
+[2020/02/24 08:57:50] Extracting file (Responsiv.Clean-theme): 50b424b156f0b335ba87925d2ea83f82.arc
+[2020/02/24 08:57:51] Step extractTheme +OK
+[2020/02/24 08:57:51] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:57:51] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => defaultsite
+    [db_pass] => *******
+    [admin_first_name] => Michael
+    [admin_last_name] => Alexander
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /back
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [active_theme] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:57:51] Install step: setupConfig
+[2020/02/24 07:57:54] Step setupConfig +OK
+[2020/02/24 07:57:54] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:57:55] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => october
+    [db_user] => defaultsite
+    [db_pass] => *******
+    [admin_first_name] => Michael
+    [admin_last_name] => Alexander
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /back
+    [encryption_code] => *******
+    [file_mask] => 644
+    [folder_mask] => 755
+    [active_theme] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:57:55] Install step: createAdmin
+[2020/02/24 07:58:03] Step createAdmin +OK
+[2020/02/24 07:58:03] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:58:03] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2020/02/24 08:58:03] Install step: setupProject
+[2020/02/24 08:58:03] Step setupProject +OK
+[2020/02/24 08:58:03] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2020/02/24 08:58:04] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => 2737f2becb468734b4ac6d9383396332
+                    [build] => 464
+                    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 8ab14a3679d1294f8db5933def5a6800
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [hash] => 2737f2becb468734b4ac6d9383396332
+    [build] => 464
+    [uhash] => cb72e3f2acd69eeabea8c44223ebb2b5
+    [handler] => onInstallStep
+)
+
+[2020/02/24 08:58:04] Install step: finishInstall
+[2020/02/24 07:58:06] Cleaning up file: 33b538b0804bdcfce25684369ded882c.arc
+[2020/02/24 07:58:06] Cleaning up file: 50b424b156f0b335ba87925d2ea83f82.arc
+[2020/02/24 07:58:06] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2020/02/24 07:58:06] Step finishInstall +OK
+[2020/02/24 07:58:06] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
